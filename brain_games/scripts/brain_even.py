@@ -1,4 +1,4 @@
-from random import random
+from random import randint
 
 import prompt  # type: ignore
 
@@ -15,11 +15,11 @@ n = 0
 # Игра, где нужно ответить 3 раза подряд правильно определить чётность
 while n < 3:
     # Генерация числа и выяснение ответа пользователя
-    number = random()
+    number = randint(1, 100)
     user_answer = prompt.string(f"Question: {number}\nYour answer: ")
     
     # Определение чётности
-    if number // 2 == 0:
+    if number % 2 == 0:
         answer = 'yes'
     else:
         answer = 'no'
