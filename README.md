@@ -2,4 +2,4 @@
 [![Actions Status](https://github.com/smoldering-adventure/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/smoldering-adventure/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/764cbd6f57389cef7887/maintainability)](https://codeclimate.com/github/smoldering-adventure/python-project-49/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/764cbd6f57389cef7887/test_coverage)](https://codeclimate.com/github/smoldering-adventure/python-project-49/test_coverage)
-<script src="https://asciinema.org/a/UYgZdcLOkkKG59htOhuJXf2UI.js" id="asciicast-UYgZdcLOkkKG59htOhuJXf2UI" async="true"></script>
+[![asciicast](https://asciinema.org/a/UYgZdcLOkkKG59htOhuJXf2UI.svg)](https://asciinema.org/a/UYgZdcLOkkKG59htOhuJXf2UI)
