@@ -30,7 +30,7 @@ def main():
             answer = number_one * number_two
 
         # Проверка
-        if answer == user_answer:
+        if answer == int(user_answer):
             print('Correct!')
             n += 1
         else:
