@@ -27,7 +27,7 @@ def main():
                 answer = i
 
         # Проверка
-        if answer == int(user_answer):
+        if str(answer) == user_answer:
             print('Correct!')
             n += 1
         else:
