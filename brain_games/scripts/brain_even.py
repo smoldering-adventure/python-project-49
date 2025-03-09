@@ -1,12 +1,10 @@
 from random import randint
-
 import prompt  # type: ignore
+from brain_games.cli import welcome_user
 
 def main():
     # Приветствие и выеснение имени пользователя
-    print("Welcome to the Brain Games!")
-    name = prompt.string('May I have your name? ')
-    print("Hello, " + name + "!")
+    name = welcome_user()
 
     # Правила
     print('Answer "yes" if the number is even, otherwise answer "no".')
