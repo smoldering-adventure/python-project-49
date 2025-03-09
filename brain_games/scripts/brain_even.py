@@ -9,6 +9,7 @@ def main():
     # Правила
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
+    # Счётчик
     n = 0
 
     # Игра, где нужно ответить 3 раза подряд правильно определить чётность
