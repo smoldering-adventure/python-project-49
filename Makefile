@@ -13,6 +13,9 @@ brain-calc:
 brain_gcd:
 	uv run brain_gcd
 
+brain_progression:
+	uv run brain_progression
+
 build:
 	uv build
 
