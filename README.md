@@ -25,7 +25,7 @@
    ```bash
    git clone https://github.com/smoldering-adventure/python-project-49.git
    cd python-project-49
-   
+
 2. Установите пакет с помощью uv:
 
     uv tool install .
@@ -47,12 +47,21 @@
 Ниже приведены asciinema-записи, демонстрирующие установку приложения и игровой процесс с успешным и неудачным окончанием игры:
 
 * Игровой процесс (brain_even):
+
 [![asciicast](https://asciinema.org/a/UYgZdcLOkkKG59htOhuJXf2UI.svg)](https://asciinema.org/a/UYgZdcLOkkKG59htOhuJXf2UI)
+
 * Игровой процесс (brain_calc):
+
 [![asciicast](https://asciinema.org/a/vsIWUQtPP7RXlZ4YJQG2eiKJ6.svg)](https://asciinema.org/a/vsIWUQtPP7RXlZ4YJQG2eiKJ6)
+
 * Игровой процесс (brain_gcd):
+
 [![asciicast](https://asciinema.org/a/RTWMpxxKkuvybYJAGYzBYJeFw.svg)](https://asciinema.org/a/RTWMpxxKkuvybYJAGYzBYJeFw)
+
 * Игровой процесс (brain_progression):
+
 [![asciicast](https://asciinema.org/a/ePFzXLkx1YlRkv76gdKV02tr7.svg)](https://asciinema.org/a/ePFzXLkx1YlRkv76gdKV02tr7)
+
 * Игровой процесс (brain_prime):
+
 [![asciicast](https://asciinema.org/a/9CqasuWhiKndllXvGtjqwZdzH.svg)](https://asciinema.org/a/9CqasuWhiKndllXvGtjqwZdzH)
