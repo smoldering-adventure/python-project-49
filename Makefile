@@ -16,6 +16,9 @@ brain_gcd:
 brain_progression:
 	uv run brain_progression
 
+brain_prime:
+	uv run brain_prime
+
 build:
 	uv build
 
