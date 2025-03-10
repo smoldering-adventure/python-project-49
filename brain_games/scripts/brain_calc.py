@@ -1,6 +1,9 @@
-from random import randint, choice
+from random import choice, randint
+
 import prompt  # type: ignore
+
 from brain_games.cli import welcome_user
+
 
 def main():
     # Приветствие и выеснение имени пользователя
@@ -19,7 +22,8 @@ def main():
         number_one = randint(1, 100)
         number_two = randint(1, 100)
         random_operator = choice(operators)
-        user_answer = prompt.string(f"Question: {number_one} {random_operator} {number_two}\nYour answer: ")
+        user_answer = prompt.string(f"Question: {number_one} {random_operator}" 
+                                    f"{number_two}\nYour answer: ")
     
         # Вычисление правильного ответа
         if random_operator == '+':
@@ -40,6 +44,7 @@ def main():
 
     # Победа
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()

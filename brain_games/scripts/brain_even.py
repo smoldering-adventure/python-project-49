@@ -1,6 +1,9 @@
 from random import randint
+
 import prompt  # type: ignore
+
 from brain_games.cli import welcome_user
+
 
 def main():
     # Приветствие и выеснение имени пользователя
@@ -35,6 +38,7 @@ def main():
 
     # Победа
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()

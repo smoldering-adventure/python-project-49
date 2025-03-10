@@ -1,6 +1,9 @@
 from random import randint
+
 import prompt  # type: ignore
+
 from brain_games.cli import welcome_user
+
 
 def main():
     # Приветствие и выеснение имени пользователя
@@ -19,7 +22,8 @@ def main():
         # Генерация чисел с операцией и выяснение ответа пользователя
         number_one = randint(1, 100)
         number_two = randint(1, 100)
-        user_answer = prompt.string(f"Question: {number_one} {number_two}\nYour answer: ")
+        user_answer = prompt.string(f"Question: {number_one}"
+                                    f" {number_two}\nYour answer: ")
     
         # Вычисление правильного ответа
         for i in range(1, min(number_one, number_two)):
@@ -37,6 +41,7 @@ def main():
 
     # Победа
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()

@@ -1,6 +1,9 @@
 from random import randint
+
 import prompt  # type: ignore
+
 from brain_games.cli import welcome_user
+
 
 # Проверка на простое ли число
 def prime(number):
@@ -14,6 +17,7 @@ def prime(number):
             return 'no'
     
     return 'yes'
+
 
 def main():
     # Приветствие и выеснение имени пользователя
@@ -45,6 +49,7 @@ def main():
 
     # Победа
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()

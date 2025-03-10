@@ -1,6 +1,9 @@
 from random import randint
+
 import prompt  # type: ignore
+
 from brain_games.cli import welcome_user
+
 
 def main():
     # Приветствие и выеснение имени пользователя
@@ -12,16 +15,20 @@ def main():
     # Счётчик
     n = 0
 
-    # Игра, где нужно ответить 3 раза подряд правильно заполнить пропуск в последовательности цисел
+    # Игра, где нужно ответить 3 раза подряд правильно
+    # заполнить пропуск в последовательности цисел
     while n < 3:
         # Генерация последовательности и выяснение ответа пользователя
         number = randint(1, 100)
         step = randint(1, 10)
-        del_number = randint(1, 9) # Номер удалённого числа
+        # Номер удалённого числа
+        del_number = randint(1, 9)
         progression = list(range(number, number + step * 10, step))
-        answer = progression[del_number] # Запоминание правльного ответа
+        # Запоминание правльного ответа
+        answer = progression[del_number]
         progression[del_number] = ".."
-        user_answer = prompt.string(f"Question: {progression}\nYour answer: ")   
+        user_answer = prompt.string(f"Question: {progression}"
+                                    f"\nYour answer: ")   
 
         # Проверка
         if str(answer) == user_answer:
@@ -34,6 +41,7 @@ def main():
 
     # Победа
     print(f"Congratulations, {name}!")
+
 
 if __name__ == "__main__":
     main()
