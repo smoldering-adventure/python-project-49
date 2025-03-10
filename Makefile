@@ -27,3 +27,5 @@ package-install:
 
 lint:
 	uv run ruff check brain_games
+
+check: test lint
