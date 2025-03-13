@@ -4,11 +4,11 @@ install:
 brain-games:
 	uv run brain-games
 
-brain-even:
-	uv run brain-even
+brain_even:
+	uv run brain_even
 
-brain-calc:
-	uv run brain-calc
+brain_calc:
+	uv run brain_calc
 
 brain_gcd:
 	uv run brain_gcd
