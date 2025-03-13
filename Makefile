@@ -1,8 +1,8 @@
 install:
 	uv sync
 
-brain-games:
-	uv run brain-games
+brain_games:
+	uv run brain_games
 
 brain_even:
 	uv run brain_even
