@@ -22,12 +22,13 @@ def main():
         number = randint(1, 100)
         step = randint(1, 10)
         # Номер удалённого числа
-        del_number = randint(1, 9)
+        del_number = randint(0, 9)
         progression = list(range(number, number + step * 10, step))
         # Запоминание правльного ответа
         answer = progression[del_number]
         progression[del_number] = ".."
-        user_answer = prompt.string(f"Question: {progression}"
+        progression_str = " ".join(map(str, progression))
+        user_answer = prompt.string(f"Question: {progression_str}"
                                     f"\nYour answer: ")   
 
         # Проверка
