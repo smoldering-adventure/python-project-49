@@ -34,10 +34,11 @@ def main():
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was "
                   f"'{answer}'.\nLet's try again, {name}!")
-            n = 0  # Обнуление счётчика
+            break
 
     # Победа
-    print(f"Congratulations, {name}!")
+    if n == 3:
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":
