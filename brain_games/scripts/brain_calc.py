@@ -22,7 +22,7 @@ def main():
         number_one = randint(1, 100)
         number_two = randint(1, 100)
         random_operator = choice(operators)
-        user_answer = prompt.string(f"Question: {number_one} {random_operator}" 
+        user_answer = prompt.string(f"Question: {number_one} {random_operator} " 
                                     f"{number_two}\nYour answer: ")
     
         # Вычисление правильного ответа
